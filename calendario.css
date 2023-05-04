@@ -1,28 +1,4 @@
-table {
-	border-collapse: collapse;
-	margin: 20px;
-    background-color: #000;
-    margin-left: 12vh;
-}
-
-th, td {
-	border: 1px solid white;
-	padding: 10px;
-	text-align: center;
-}
-
-.calendario h1{
-    text-align: center;
-}
-
-.calendario h3{
-	margin-left: 35vh;
-}
-
-th {
-	background-color: #000;
-}
-
-td:first-child {
-	color: red;
+.calendario{
+	margin-top: 5vh;
+	margin-left: 60vh;
 }
