@@ -1,0 +1,36 @@
+.fundo h1{
+    margin-left: 44vw;
+    margin-top: 3vh;
+}
+
+.fundo img{
+    margin-top: 3vh;
+    margin-left: 41vw;
+    border-radius: 50%;
+}
+
+.fundo p{
+    margin-top: 2vh;
+    text-align: center;
+}
+
+.intro{
+    margin-top: 5vh;
+    text-align: center;
+}
+
+
+.intro p{
+    margin-top: 10px;
+}
+
+.outros{
+    margin-top: 5vh;
+    text-align: center;
+}
+
+
+footer{
+    margin-top: 10vh;
+    text-align: center;
+}
