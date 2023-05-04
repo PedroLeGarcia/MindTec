@@ -39,7 +39,53 @@
     margin-left: 55vh;
     text-align: center;
 }
-
-.insta {
-    text-align: center;
-} 
+@media (max-width: 767px) {
+    .card{
+        width: 62vh;
+        height: 85vh;
+        margin-left: 15%;
+        margin-bottom: 50px;
+    }
+    .card__content img{
+        margin-left: 8%;
+        width: 50vh;
+        height: 360px;
+    }
+    .name{
+        margin-left: 37%;
+    }
+    .card__content h3{
+       margin-left: 5%;
+       margin-top: 10%;
+       text-align: center;
+    }
+    .card__content p{
+        margin-left: 8%;
+        text-align: center;
+        
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .card{
+        margin-left: 10%;
+    }
+    .card__content h3{
+        margin-left: 60%;
+    }
+    .card__content p{
+        margin-left: 58%;
+        
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .card{
+        margin-left: 10%;
+    }
+    .card__content h3{
+        margin-left: 60%;
+    }
+    .card__content p{
+        margin-left: 58%;
+    }
+}
+  
