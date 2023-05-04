@@ -1,12 +1,30 @@
-.container{
-    margin-left: 80vh;
+table {
+	border-collapse: collapse;
+	margin: 20px;
+    background-color: #000;
+    margin-left: 12vh;
+}
+
+th, td {
+	border: 1px solid white;
+	padding: 10px;
+	text-align: center;
+}
+
+
+.calendario h1{
     text-align: center;
 }
 
-.container h3{
-    margin-top: 10px;
+.calendario h3{
+	margin-left: 35vh;
 }
 
-.dias td{
-    margin-top: 10px;
+
+th {
+	background-color: #000;
+}
+
+td:first-child {
+	color: red;
 }
